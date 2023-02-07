@@ -1,4 +1,4 @@
-// rates.RUB
+
 
 const btnsLeft = document.querySelectorAll('.left button');
 const btnsRight = document.querySelectorAll('.right button');
@@ -25,7 +25,6 @@ btnsLeft.forEach(elem => {
 
         elem.classList.add('purple');
         purpleLeft = document.querySelector('.left .purple').textContent;
-        console.log(purpleLeft);
         startResponse()
         
     })

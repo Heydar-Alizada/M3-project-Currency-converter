@@ -9,6 +9,14 @@ body{
     margin: 0;
     
 }
+li, button, .logo-div{
+    cursor: pointer;
+}
+
+
+
+
+
 
 nav{
     display: flex;
@@ -117,12 +125,18 @@ p{
     border: 1px solid #E5E5E5;
 }
 
+.article-container button:not(.gbp){
+    border-right: none;
+}
+
 .rub{
     border-radius: 3px 0px 0px 3px !important;
+    border: 1px solid #E5E5E5;
 }
 
 .gbp{
     border-radius: 0px 3px 3px 0px !important;
+    border: 1px solid #E5E5E5 !important;
 }
 
 
